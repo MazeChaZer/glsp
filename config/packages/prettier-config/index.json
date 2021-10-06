@@ -9,13 +9,12 @@
   "tabWidth": 4,
   "overrides": [
     {
-      "files": [
-        "*.json",
-        "*.yml"
-      ],
+      "files": ["*.json", "*.yml"],
       "options": {
         "tabWidth": 2
       }
     }
-  ]
+  ],
+  "importOrder": ["^.*\\.css$", "^((?!reflect-metadata).)*$"],
+  "importOrderSeparation": true
 }
